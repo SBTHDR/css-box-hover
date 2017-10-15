@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.about-top{
+  margin-bottom: 50px;
+}
+.about-top h2{
+  text-transform: uppercase;
+}
+
+#sevice{
+  background: #e1e1e1;
+  padding: 90px 0;
+}
+
+.service-icon img{
+  width: 100%;
+}
+
+.service-icon{
+  position: relative;
+  overflow: hidden;
+}
+
+.service-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: -100%;
+}
+
+.service-icon:hover .service-overlay{
+  top: 0;
+  transition: .5s;
+}
+
+.overlay-icon{
+  position: absolute;
+  left: 35%;
+  bottom: -100%;
+  transition: .5s;
+}
+
+.overlay-icon i{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  font-size: 18px ;
+  line-height: 40px;
+  color: #fff;
+  margin-left: 30px;
+  padding-left: 9px;
+  transition: .5s;
+}
+
+.service-icon:hover .overlay-icon{
+  bottom: 40%;
+}
+
+.overlay-icon i:hover{
+  background: #3498db;
+  border: 1px solid #3498db;
+}
