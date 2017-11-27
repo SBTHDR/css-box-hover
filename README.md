@@ -1,2 +1,5 @@
 # css-box-hover
-CSS Box Hover 
+
+Clone 
+
+https://github.com/SBTHDR/css-box-hover.git
